@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  margin-top: 100px;
+  border: 1px solid;
+  border-radius: 4px;
+  min-width: 100px;
+
+  font-weight: 700;
+  font-size: 16px;
+}
